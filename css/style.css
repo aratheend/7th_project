@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-95 {
+  width: 95%;
+  margin: auto;
+}
+
+#product {
+  background-color: #ecedf2;
+  padding-top: 7rem;
+  position: relative;
+}
+#product .top-left-paw {
+  position: absolute;
+  top: 150px;
+  left: 65px;
+}
+#product .top-left-paw img {
+  width: 66.56px;
+  height: 65.12px;
+}
+#product .top-right-paw {
+  position: absolute;
+  top: 200px;
+  right: 65px;
+}
+#product .top-right-paw img {
+  width: 78.22px;
+  height: 76.53px;
+}
+#product .animal-food {
+  flex-direction: column;
+}
+#product .animal-food .treat {
+  width: 828px;
+  height: 270px;
+  background-color: white;
+  padding: 20px 20px 20px 70px;
+  margin-bottom: 80px;
+  border-radius: 25px;
+  box-shadow: 0px 15px 25px 7px rgba(36, 169, 225, 0.05);
+}
+#product .animal-food .treat .left::after {
+  content: "";
+  border-right: 1px solid rgba(0, 0, 0, 0.1490196078);
+  margin-left: 30px;
+}
+#product .animal-food .treat .right {
+  width: 80%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#product .animal-food .treat .right .top {
+  display: flex;
+  justify-content: space-between;
+}
+#product .animal-food .treat .right .top .top-l {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#product .animal-food .treat .right .top .top-l img {
+  width: 18.8px;
+  height: 18.8px;
+  position: relative;
+  left: -20px;
+}
+#product .animal-food .treat .right .top .top-l span {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#product .animal-food .treat .right .top .top-l img {
+  width: 50%;
+}
+#product .animal-food .treat .right .top .top-r {
+  width: 20%;
+  text-align: right;
+}
+#product .animal-food .treat .right .top .top-r img {
+  position: relative;
+  right: 20px;
+}
+#product .animal-food .treat .right .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#product .animal-food .treat .right .bottom .bottom-l {
+  width: 40%;
+}
+#product .animal-food .treat .right .bottom .bottom-l a {
+  display: inline-block;
+  color: white;
+  background-color: #24a9e1;
+  padding: 10px 20px;
+  border-radius: 25px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+#product .animal-food .treat .right .bottom .bottom-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#product .animal-food .treat .right .bottom .bottom-r a {
+  display: inline-block;
+  color: #24a9e1;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.031372549);
+  border-radius: 15px;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+}
+#product .animal-food .treat .right .bottom .bottom-r a img {
+  width: 12px;
+  height: 27px;
+}
+#product .animal-food .treat .right .bottom .bottom-r a .begin {
+  margin-right: 15px;
+}
+#product .animal-food .treat .right .bottom .bottom-r a .end {
+  margin-left: 15px;
+}
+#product .animal-food .treat .right .bottom .bottom-r span {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+#product .animal-food .kaytee {
+  width: 828px;
+  height: 270px;
+  background-color: white;
+  padding: 20px 20px 20px 70px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 15px 25px 7px rgba(36, 169, 225, 0.05);
+}
+#product .animal-food .kaytee .left {
+  height: 100%;
+}
+#product .animal-food .kaytee .left::after {
+  content: "";
+  border-right: 1px solid rgba(0, 0, 0, 0.1490196078);
+  margin-left: 30px;
+}
+#product .animal-food .kaytee .left img {
+  position: relative;
+  top: 6px;
+}
+#product .animal-food .kaytee .right {
+  width: 80%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#product .animal-food .kaytee .right .top {
+  display: flex;
+  justify-content: space-between;
+}
+#product .animal-food .kaytee .right .top .top-l {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#product .animal-food .kaytee .right .top .top-l img {
+  width: 18.8px;
+  height: 18.8px;
+  position: relative;
+  left: -20px;
+}
+#product .animal-food .kaytee .right .top .top-l span {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#product .animal-food .kaytee .right .top .top-l img {
+  width: 50%;
+}
+#product .animal-food .kaytee .right .top .top-r {
+  width: 20%;
+  text-align: right;
+}
+#product .animal-food .kaytee .right .top .top-r img {
+  position: relative;
+  right: 20px;
+}
+#product .animal-food .kaytee .right .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#product .animal-food .kaytee .right .bottom .bottom-l {
+  width: 40%;
+}
+#product .animal-food .kaytee .right .bottom .bottom-l a {
+  display: inline-block;
+  color: white;
+  background-color: #24a9e1;
+  padding: 10px 20px;
+  border-radius: 25px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+#product .animal-food .kaytee .right .bottom .bottom-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#product .animal-food .kaytee .right .bottom .bottom-r a {
+  display: inline-block;
+  color: #24a9e1;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.031372549);
+  border-radius: 15px;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+}
+#product .animal-food .kaytee .right .bottom .bottom-r a img {
+  width: 12px;
+  height: 27px;
+}
+#product .animal-food .kaytee .right .bottom .bottom-r a .begin {
+  margin-right: 15px;
+}
+#product .animal-food .kaytee .right .bottom .bottom-r a .end {
+  margin-left: 15px;
+}
+#product .animal-food .kaytee .right .bottom .bottom-r span {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#toys {
+  position: relative;
+  background-color: #ecedf2;
+  padding-bottom: 6rem;
+}
+#toys .mid-left-paw {
+  position: absolute;
+  top: -40px;
+  left: 200px;
+}
+#toys .mid-left-paw img {
+  width: 66.56px;
+  height: 65.12px;
+}
+#toys .mid-right-paw {
+  position: absolute;
+  top: -40px;
+  right: 200px;
+}
+#toys .mid-right-paw img {
+  width: 66.56px;
+  height: 65.12px;
+}
+#toys .bottom-left-paw {
+  position: absolute;
+  bottom: 120px;
+  left: 480px;
+}
+#toys .bottom-left-paw img {
+  width: 74px;
+  height: 72px;
+}
+#toys .bottom-right-paw {
+  position: absolute;
+  bottom: 330px;
+  right: 460px;
+}
+#toys .bottom-right-paw img {
+  width: 74px;
+  height: 72px;
+}
+#toys .product-title {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  margin-bottom: 50px;
+}
+#toys .product-title h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+#toys .product-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#toys .product-preview .product-main {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  width: 312px;
+  height: 329px;
+  margin-bottom: 120px;
+}
+#toys .product-preview .product-main p {
+  color: rgba(0, 0, 0, 0.8509803922);
+  font-size: 15px;
+  font-weight: 400;
+}
+#toys .product-preview .product-button a {
+  color: white;
+  padding: 20px 20px;
+  background-color: #24a9e1;
+  font-size: 15px;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
